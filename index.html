@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eghosa Joshua</title>
+  </head>
+  <body class="light">
+    <div id="root"></div>
+    <script>
+      if (localStorage.getItem("darkmode") == "yes") {
+        document.body.classList.remove("light");
+        document.body.classList.add("dark");
+      } else {
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

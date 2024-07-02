@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.dark {
+  background-color: rgb(2, 6, 23);
+}
+body {
+  background-color: rgb(242, 247, 254);
+}
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+hr {
+  background-color: rgb(255, 212, 248);
+}
