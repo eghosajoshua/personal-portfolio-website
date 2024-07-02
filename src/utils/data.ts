@@ -30,12 +30,12 @@ export const data: {
   },
   {
     id: 3,
-    title: "Blog Website",
+    title: "Portfolio",
     description: "This is a blog website built with React.",
-    img: "/images/aiprompts.jpg",
+    img: "/images/portfolio.png",
     type: "Website",
-    github: "https://github.com/kayla-tech/portfolio",
-    live: "https://kayla-tech.github.io/portfolio/",
-    technologies: ["React", "Typescript", "Bootstrap"],
+    github: "https://github.com/eghosajoshua/eghosa-portfolio",
+    live: "https://www.eghosajoshua.com",
+    technologies: ["React", "Typescript", "TailwindCSS"],
   },
 ];
