@@ -24,7 +24,7 @@ const About = () => {
       {/* jobs */}
       <div className="flex w-full flex-col gap-3">
         <Skills
-          title="Ui/Ux Design"
+          title="UI/UX Design"
           body="Crafting intuitive and engaging digital experiences."
         >
           <BsGridFill className="text-blue-500" size={30} />
