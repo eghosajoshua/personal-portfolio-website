@@ -30,12 +30,12 @@ export const data: {
   },
   {
     id: 3,
-    title: "Portfolio",
-    description: "This is a blog website built with React.",
+    title: "Personal Portfolio",
+    description: `This portfolio website, built using React.js and Tailwind CSS, showcases a variety of projects and designs. The site leverages React.js to create a dynamic and interactive user experience, while Tailwind CSS is used to craft a sleek, responsive design with a utility-first approach. It features a gallery of projects.`,
     img: "/images/portfolio.png",
     type: "Website",
     github: "https://github.com/eghosajoshua/eghosa-portfolio",
     live: "https://www.eghosajoshua.com",
-    technologies: ["React", "Typescript", "TailwindCSS"],
+    technologies: ["ReactJs", "Typescript", "TailwindCSS"],
   },
 ];

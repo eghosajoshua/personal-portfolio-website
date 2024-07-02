@@ -1,30 +1,80 @@
-# React + TypeScript + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built using React.js and Tailwind CSS. The website showcases various projects and designs, providing a dynamic and interactive user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Utilized to create a responsive and interactive user interface.
+- **Tailwind CSS**: Employed to design a sleek, modern, and fully responsive layout.
+- **Projects Gallery**: Displays a curated collection of diverse projects.
+- **About Section**: Provides background information and insights.
 
-## Expanding the ESLint configuration
+## View Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[![View Demo](https://img.shields.io/badge/View-Demo-green)](https://www.eghosajoshua.com)
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) (which includes npm)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/eghosajoshua/personal-portfolio-website
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd your-repo-name
+   ```
+
+3. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+### Usage
+
+To start the development server, run:
+
+```sh
+npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will open the project in your default web browser.
+
+### Building for Production
+
+To create a production build, run:
+
+```sh
+npm run build
+```
+
+The optimized build will be created in the `build` directory.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Eghosa Joshua - [eghosajosh@gmail.com](mailto:eghosajosh@gmail.com)
+
+Project Link: [https://github.com/eghosajoshua/personal-portfolio-website](https://github.com/eghosajoshua/personal-portfolio-website)
+
+---
