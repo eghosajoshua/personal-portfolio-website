@@ -20,13 +20,15 @@ export const data: {
   },
   {
     id: 2,
-    title: "Tic Tac Toe",
-    description: "A simple tic tac toe game built with React.",
-    img: "/images/aiprompts.jpg",
+    title: "AiPrompts",
+    description:
+      "AiPrompts is a collaborative platform designed for sharing insightful AI prompts among users. Built with Next.js, the website offers a seamless and interactive user experience. Featuring Google authentication for secure login and MongoDB for robust data storage, AiPrompts empowers users to discover and exchange innovative AI ideas effortlessly",
+    img: "/images/aiprompts.png",
     type: "website",
-    github: "https://github.com/kayla-tech/portfolio",
-    live: "https://kayla-tech.github.io/portfolio/",
-    technologies: ["React", "Typescript", "TailwindCSS"],
+    github:
+      "https://github.com/eghosajoshua/AiPrompts-create-and-share-ai-prompts",
+    live: "https://aiprompts-eight.vercel.app/",
+    technologies: ["NextJs", "Typescript", "TailwindCSS"],
   },
   {
     id: 3,
