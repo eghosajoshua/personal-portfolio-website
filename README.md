@@ -75,6 +75,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Eghosa Joshua - [eghosajosh@gmail.com](mailto:eghosajosh@gmail.com)
 
-Project Link: [https://github.com/eghosajoshua/personal-portfolio-website](https://github.com/eghosajoshua/personal-portfolio-website)
-
----
+Author Portfolio: [https://www.eghosajoshua.com](https://www.eghosajoshua.com)
