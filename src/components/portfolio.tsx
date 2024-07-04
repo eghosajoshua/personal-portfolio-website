@@ -114,13 +114,15 @@ const Modal = ({
         </div>
         {/* view and github links */}
         <div className="flex gap-3 items-center justify-center">
-          <a
-            target="_blank"
-            href={modalDetails.live}
-            className="flex items-center justify-center bg-blue-400 dark:bg-blue-600 p-1  h-10 w-10 rounded-full text-white"
-          >
-            <FaEye size={24} />
-          </a>
+          {modalDetails.live != "" && (
+            <a
+              target="_blank"
+              href={modalDetails.live}
+              className="flex items-center justify-center bg-blue-400 dark:bg-blue-600 p-1  h-10 w-10 rounded-full text-white"
+            >
+              <FaEye size={24} />
+            </a>
+          )}
           <a
             target="_blank"
             href={modalDetails.github}
