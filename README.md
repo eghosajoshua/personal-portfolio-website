@@ -48,7 +48,7 @@ Make sure you have the following installed:
 To start the development server, run:
 
 ```sh
-npm start
+npm run dev
 ```
 
 This will open the project in your default web browser.
