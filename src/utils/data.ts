@@ -9,16 +9,6 @@ export const data: {
   technologies: string[];
 }[] = [
   {
-    id: 1,
-    title: "CodMath",
-    description: "A portfolio website built with React.",
-    img: "/images/aiprompts.jpg",
-    type: "Mobile App",
-    github: "https://github.com/kayla-tech/portfolio",
-    live: "https://kayla-tech.github.io/portfolio/",
-    technologies: ["React", "Typescript", "TailwindCSS"],
-  },
-  {
     id: 2,
     title: "AiPrompts",
     description:
