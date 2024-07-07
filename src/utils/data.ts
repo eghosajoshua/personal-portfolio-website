@@ -9,7 +9,7 @@ export const data: {
   technologies: string[];
 }[] = [
   {
-    id: 2,
+    id: 1,
     title: "AiPrompts",
     description:
       "AiPrompts is a collaborative platform designed for sharing insightful AI prompts among users. Built with Next.js, the website offers a seamless and interactive user experience. Featuring Google authentication for secure login and MongoDB for robust data storage, AiPrompts empowers users to discover and exchange innovative AI ideas effortlessly",
@@ -21,7 +21,7 @@ export const data: {
     technologies: ["NextJs", "Typescript", "TailwindCSS"],
   },
   {
-    id: 3,
+    id: 2,
     title: "2D Racing Game",
     description: `2D CarRace Game is an engaging and entertaining car racing game developed using Pygame. Players navigate a car on a 2D track, aiming to achieve the best possible time while avoiding obstacles. The game features smooth graphics and responsive controls, providing an immersive racing experience. It also utilizes localStoragePy to save game data locally, ensuring that progress and high scores are preserved.`,
     img: "/images/2dracegame.png",
@@ -31,7 +31,7 @@ export const data: {
     technologies: ["Python", "Pygame"],
   },
   {
-    id: 4,
+    id: 3,
     title: "Personal Portfolio",
     description: `This portfolio website, built using React.js and Tailwind CSS, showcases a variety of projects and designs. The site leverages React.js to create a dynamic and interactive user experience, while Tailwind CSS is used to craft a sleek, responsive design with a utility-first approach. It features a gallery of projects.`,
     img: "/images/portfolio.png",
@@ -41,7 +41,7 @@ export const data: {
     technologies: ["ReactJs", "Typescript", "TailwindCSS"],
   },
   {
-    id: 5,
+    id: 4,
     title: "Ai Text to Voice",
     description: `Ai Text to Voice is an innovative web application designed to convert text into natural-sounding speech using the powerful 11 Labs API. Built with Vite and React.js, this application offers a seamless and efficient user experience. The intuitive interface allows users to easily input text and generate high-quality voice outputs, making it an ideal tool for various applications such as creating voiceovers, accessibility solutions, and more. `,
     img: "/images/aitexttovoice.png",

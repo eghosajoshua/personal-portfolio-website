@@ -14,8 +14,9 @@ interface ModalDetailsType {
 }
 const Portfolio = () => {
   const [modalDetails, setModalDetails] = useState<ModalDetailsType>(data[0]);
-
   const [openModal, setOpenModal] = useState(false);
+  const data1 = data.slice(0, Math.floor(data.length / 2));
+  const data2 = data.slice(Math.ceil(data.length / 2), data.length);
 
   return (
     <section
@@ -26,18 +27,32 @@ const Portfolio = () => {
         Portfolio
         <span className="text-sm text-slate-400"> (some of my works)</span>
       </h2>
-      {/* works */}
-      <div className="flex gap-4 flex-wrap w-full">
-        {data.map((work, index) => (
-          <Works
-            setModalDetails={setModalDetails}
-            setOpenModal={setOpenModal}
-            index={index}
-            title={work.title}
-            image={work.img}
-            type={work.type}
-          />
-        ))}
+      {/* works double row */}
+      <div className="flex gap-4 flex-wrap items-start">
+        <div className="flex gap-4 flex-col  w-full justify-center items-center min-w-[280px] flex-1">
+          {data1.map((work) => (
+            <Works
+              setModalDetails={setModalDetails}
+              setOpenModal={setOpenModal}
+              index={work.id}
+              title={work.title}
+              image={work.img}
+              type={work.type}
+            />
+          ))}
+        </div>
+        <div className="flex gap-4 flex-col  w-full justify-center items-center min-w-[280px] flex-1">
+          {data2.map((work) => (
+            <Works
+              setModalDetails={setModalDetails}
+              setOpenModal={setOpenModal}
+              index={work.id}
+              title={work.title}
+              image={work.img}
+              type={work.type}
+            />
+          ))}
+        </div>
       </div>
       {/* modal */}
       {openModal && (
@@ -71,11 +86,11 @@ const Works = ({
       setModalDetails(data[index]);
       setOpenModal(true);
     }}
-    className="bg-slate-100 dark:bg-slate-800 w-[200px] p-4 rounded-lg cursor-pointer  flex-grow"
+    className="bg-slate-100 dark:bg-slate-800 w-full p-4 h-fit rounded-lg cursor-pointer  flex flex-col items-center"
   >
     <img className="rounded-lg" src={image} alt="" />
-    <p className="mt-4 text-slate-700 dark:text-slate-400">{type}</p>
-    <p className="font-bold text-lg dark:text-white">{title}</p>
+    <p className="mt-4 text-slate-700 dark:text-slate-400 w-full">{type}</p>
+    <p className="font-bold text-lg dark:text-white  w-full">{title}</p>
   </div>
 );
 const Modal = ({
