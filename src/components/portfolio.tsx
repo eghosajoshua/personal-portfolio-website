@@ -32,6 +32,7 @@ const Portfolio = () => {
         <div className="flex gap-4 flex-col  w-full justify-center items-center min-w-[280px] flex-1">
           {data1.map((work) => (
             <Works
+              key={work.id}
               setModalDetails={setModalDetails}
               setOpenModal={setOpenModal}
               index={work.id}
@@ -44,6 +45,7 @@ const Portfolio = () => {
         <div className="flex gap-4 flex-col  w-full justify-center items-center min-w-[280px] flex-1">
           {data2.map((work) => (
             <Works
+              key={work.id}
               setModalDetails={setModalDetails}
               setOpenModal={setOpenModal}
               index={work.id}
@@ -83,7 +85,7 @@ const Works = ({
 }) => (
   <div
     onClick={() => {
-      setModalDetails(data[index]);
+      setModalDetails(data[index - 1]);
       setOpenModal(true);
     }}
     className="bg-slate-100 dark:bg-slate-800 w-full p-4 h-fit rounded-lg cursor-pointer  flex flex-col items-center"
